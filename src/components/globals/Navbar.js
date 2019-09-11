@@ -53,7 +53,7 @@ export default function Navbar() {
                            <li 
                            key={link.id} 
                            className="nav-item text-capitalize">
-                               <Link to={link.path}>
+                               <Link className="nav-link text-capitalize" to={link.path}>
                                 {link.text}
                                 </Link>
                          </li>
